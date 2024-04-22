@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	</head>
 	<body class="is-preload">
 
@@ -489,14 +491,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<section id="sidebar">
 
 						<!-- Intro -->
-							<section id="intro">
-								<a href="sobremi.html" class="logohd"><img src="images/logohd.png" alt="image" style= "width:350px;height:150px">
-								</a>
-								<header>
-									<h2>Mi Bitácora</h2>
-								</header>
-									<p>¡Bienvenid@ a mi espacio! Aquí compartiré semanalmente mis experiencias y aprendizajes durante el curso de <i>Laboratorio de Innovación 2</i>.</p>
-							</section>
+						<section id="intro">
+							<a href="sobremi.html" class="logohd"><img src="images/logohd.png" alt="image" style= "width:350px;height:150px">
+							</a>
+							<header>
+								<h2>Mi Bitácora</h2>
+							</header>
+								<p>¡Bienvenid@ a mi espacio! Aquí compartiré semanalmente mis experiencias y aprendizajes durante el curso de <i>Laboratorio de Innovación 2</i>.</p>
+						</section>
 
 						<!-- About -->
 						<section class="blurb">
@@ -606,8 +608,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							<div class="inner">
 								<section>
 									<h2>¡Envíame un mensaje!</h2>
-									<form method="post" action="https://formspree.io/f/mgegrnkn">
-								     <!--   <form id="contacto" method="post" action="#">-->
+									<!--   <form method="post" action="https://formspree.io/f/mgegrnkn">-->
+								      <form id="contacto" method="post" action="#">
 										<div class="fields">
 											<div class="field half">
 												<input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
@@ -638,16 +640,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<a href="https://mail.google.com/mail/u/0/?hl=es#inbox" class="fa fa-envelope"><span class="label"></span></a></li>
 							</ul>
 						</section>
-						<html>
-						<head>
-							<meta charset=""UTF-8">
-							<meta http-equiv=""X-UA-Compatible" content="IE-edge">
-							<meta name=""viewport" content="width=device-width, initial-scale=1.0">
-							<title>Boton animado para redes sociales</title>
-							<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-						<link rel="stylesheet" href="main.css">
-						</head>
-						</html>
+
 					</section>
 
 			</div>
@@ -664,7 +657,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			
 				form.addEventListener('submit', function(event) {
 					event.preventDefault(); // Evita que el formulario se envíe normalmente
-					//form.style.display = 'none';
+					// form.reset();
 
 					// Redirecciona a la misma página después de enviar el formulario
 					window.location.href = "https://bitacoramayza.netlify.app/";

@@ -7,10 +7,18 @@
 <html>
 	<head>
 		<title>Sobre mi</title>
+
+
+		<title>Mi bitácora</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
 	</head>
+
 	<body class="single is-preload">
 
 		<!-- Wrapper -->
@@ -134,7 +142,7 @@
 						<section>
 							<h2>¡Envíame un mensaje!</h2>
 							<!--<form method="post" action="https://formspree.io/f/mgegrnkn">-->
-								<form id="contacto" method="post" action="">
+								<form id="form_contacto" method="post" action="#">
 								<div class="fields">
 									<div class="field half">
 										<input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
@@ -165,16 +173,7 @@
 						<a href="https://mail.google.com/mail/u/0/?hl=es#inbox" class="fa fa-envelope"><span class="label"></span></a></li>
 					</ul>
 				</section>
-				<html>
-				<head>
-					<meta charset=""UTF-8">
-					<meta http-equiv=""X-UA-Compatible" content="IE-edge">
-					<meta name=""viewport" content="width=device-width, initial-scale=1.0">
-					<title>Boton animado para redes sociales</title>
-					<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-				<link rel="stylesheet" href="main.css">
-				</head>
-				</html>
+
 			</div>
 
 		<!-- Scripts -->
@@ -185,14 +184,14 @@
 			<script src="assets/js/main.js"></script>
 
 			<script>
-				var form = document.querySelector('#contacto');
+				var form = document.querySelector('#form_contacto');
 			
 				form.addEventListener('submit', function(event) {
 					event.preventDefault(); // Evita que el formulario se envíe normalmente
-					//form.style.display = 'none';
+					// form.style.display = 'none';
 
 					// Redirecciona a la misma página después de enviar el formulario
-					// window.location.href = "https://bitacoramayza.netlify.app/sobremi";
+					window.location.href = "https://bitacoramayza.netlify.app/sobremi";
 				});
 			</script>
 

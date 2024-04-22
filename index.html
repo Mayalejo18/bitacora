@@ -607,7 +607,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<section>
 									<h2>¡Envíame un mensaje!</h2>
 									<!--<form method="post" action="https://formspree.io/f/mgegrnkn">-->
-								        <form method="post" action="#">
+								        <form id="contacto" method="post" action="#">
 										<div class="fields">
 											<div class="field half">
 												<input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
@@ -660,11 +660,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/main.js"></script>
 
 			<script>
-				var form = document.querySelector('form');
+				var form = document.querySelector('#contacto');
 			
 				form.addEventListener('submit', function(event) {
 					event.preventDefault(); // Evita que el formulario se envíe normalmente
-			
+					//form.style.display = 'none';
+
 					// Redirecciona a la misma página después de enviar el formulario
 					window.location.href = "https://bitacoramayza.netlify.app/";
 				});
